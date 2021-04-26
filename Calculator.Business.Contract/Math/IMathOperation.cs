@@ -8,6 +8,11 @@ namespace Calculator.Business.Contract.Math
 {
     public interface IMathOperation
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="numbers">Numbers separated by ','</param>
+        /// <returns>Sum of numbers</returns>
         string Add(string numbers);
     }
 }

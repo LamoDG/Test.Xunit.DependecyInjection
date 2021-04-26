@@ -1,11 +1,6 @@
-﻿using Calculator.Business.Abstract;
+﻿using Calculator.Business.Contract.Math;
 using Calculator.Business.Implementation;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.Business
 {
